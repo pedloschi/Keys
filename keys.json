@@ -6,7 +6,11 @@
     "ABAB-1B57-AEA2-45C2-875C-9394-D482-F37C"
   ],
   "users_shop_app": [
-    "pedloschi : ArkshopASE, LethalQuests",
-    "master : ArkshopASA, LethalQuests"
+    "pedloschi" {
+      "modules": ["ArkShopASE", "LethalQuests"]
+    },
+    "master" { 
+    "modules": ["ArkshopASA", "LethalQuests"]
+      }
   ]
 }
